@@ -5,8 +5,6 @@
 
 ## Useful Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
 - Side-by-Side Comparison
 ![Screenshot from 2024-08-22 13-39-51](https://github.com/user-attachments/assets/ce081db3-6a70-4c65-949e-9524bb308232)
 - Add More Products
