@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.highlighted {
+  background-color: #ffeb3b;
+  /* Highlight color */
+  font-weight: bold;
+}
