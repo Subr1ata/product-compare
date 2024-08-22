@@ -1,31 +1,22 @@
-# React + TypeScript + Vite
+# Instructions to run this project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- npm install
+- npm run dev
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
+## Useful Features
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# product-compare
+- Side-by-Side Comparison
+![Screenshot from 2024-08-22 13-39-51](https://github.com/user-attachments/assets/ce081db3-6a70-4c65-949e-9524bb308232)
+- Add More Products
+  ![Screenshot from 2024-08-22 13-41-27](https://github.com/user-attachments/assets/c5827799-bac8-4e0b-89ee-e9fe7c99cbb2)
+- Remove Products
+  - Users can remove products from the comparison table if they no longer wish to compare them.
+  - This feature ensures that the comparison remains relevant and focused on the user's needs.
+- Highlighting Compared Attributes
+  ![Screenshot from 2024-08-22 13-44-21](https://github.com/user-attachments/assets/ff6c8a2b-9492-40fa-9783-5b62eeaa4dae)
+- Duplicate Prevention
+  - The system prevents adding duplicate products to the comparison list, ensuring that each comparison is unique and meaningful.
+- Navigation
+  - Users can seamlessly navigate back to the Product Details Page or any other part of the site using the sidebar, ensuring a smooth user experience.
